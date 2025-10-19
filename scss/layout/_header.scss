@@ -1,0 +1,50 @@
+.landing-page__header {
+  height: 93vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(17, 153, 142, 0.6),
+      rgba(56, 239, 126, 0.6)
+    ),
+    url(../../images/hero.jpg);
+  background-size: cover;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.site__logo--header {
+  height: 3.5rem;
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.heading__primary {
+  color: $color-white;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &--one {
+    display: block;
+    letter-spacing: 3.5rem;
+    font-weight: 400;
+    font-size: 6rem;
+    align-self: flex-start;
+  }
+  &--two {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,19 @@
+// ? Primary SCSS file for importing partials
+
+// ! abstracts
+@import "abstracts/fonts";
+@import "abstracts/variables";
+
+// ! base
+@import "base/reset";
+@import "base/base";
+
+// ! components
+@import "components/buttons";
+
+// ! layout
+@import "layout/header";
+@import "layout/flexbox";
+
+// ! page
+@import "pages/homepage";

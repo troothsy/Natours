@@ -1,0 +1,9 @@
+// ? This partial resets the browser's default styles to provide a consistent baseline for layout. Resetting or overriding browser defaults gives developers better control over styling.
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
